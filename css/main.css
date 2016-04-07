@@ -3,8 +3,6 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
 img{
 	max-width:100%;
 	height:auto;
@@ -29,7 +27,7 @@ body{
     font-weight: bold;
 }
 .header_right_bottom{
-	margin-top:60px;
+	margin-top:20px;
 }
 .blue_button{
 	background: #6d90a1 none repeat scroll 0 0;
@@ -46,10 +44,15 @@ body{
 	margin-right:10px;
 	min-width: 200px;
 }
+
+.blue_button:hover {
+	background-color: rgba(109,144,161, 0.6);
+}
+
 .showcase-sections{
 	color:#6e90a2;
 	font-size:14px;
-	
+
 }
 .showcase-sections p{
 	font-family: 'Carrois Gothic', sans-serif;
@@ -110,10 +113,12 @@ body{
 	margin-top:5px;
 	margin-bottom:30px;
 }
+
 #techstar_companies h1{
 	font-size:60px;
 	color:#6e90a2;
-	margin-bottom:15px;
+	margin-bottom:50px;
+	margin-top: 45px;
 }
 #techstar_companies{
 	color:#6e90a2;
@@ -149,7 +154,7 @@ body{
 	margin-bottom:20px;
 }
 .single_techstar_companies{
-	min-height:235px;
+	height:235px;
 }
 .single_techstar_companies img{
 	max-height:88px;
