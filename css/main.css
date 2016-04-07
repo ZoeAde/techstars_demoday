@@ -15,7 +15,10 @@ body{
 .header_container{
 	background: rgba(0, 0, 0, 0) url("../img/headerbg.jpg") no-repeat scroll 0 0;
 	background-size:100% 100%;
-	padding: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 60px;
+	padding-bottom: 40px;
 }
 .header_right{
 	overflow:hidden;
@@ -46,13 +49,12 @@ body{
 }
 
 .blue_button:hover {
-	background-color: rgba(109,144,161, 0.6);
+	background-color: rgb(157,184,196);
 }
 
 .showcase-sections{
 	color:#6e90a2;
 	font-size:14px;
-
 }
 .showcase-sections p{
 	font-family: 'Carrois Gothic', sans-serif;
@@ -72,6 +74,7 @@ body{
 .showcase-sections h3 {
 	font-size:24px;
 	font-weight:bold;
+	margin-bottom: 20px;
 	margin-top:10px;
 }
 .showcase-sections .showcase_left_col{
@@ -85,10 +88,13 @@ body{
 }
 .showcase_left_botom{
 	margin-top: 25px;
-    overflow: hidden;
-
-
+  overflow: hidden;
 }
+
+.showcase_cta {
+	margin-top: 13px;
+}
+
 #after_party .container{
 	background:#6d90a1;
 }
@@ -97,6 +103,7 @@ body{
 	font-size:60px;
 	text-align:center;
 	margin-top: 25px;
+	margin-bottom: 25px;
 }
 #after_party h2{
 	color:#fff;
@@ -123,6 +130,11 @@ body{
 #techstar_companies{
 	color:#6e90a2;
 }
+#techstar_companies .row{
+	margin-left: 120px;
+	margin-right: 120px;
+}
+
 #techstar_companies p{
 	font-weight:normal;
 	padding:10px;
@@ -131,9 +143,21 @@ body{
 .shocase_right{
 	margin-top:15px;
 }
+
+.justify {
+	text-align: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.justify_left {
+	margin-bottom: 50px;
+}
+
 .single_techstar_companies{
 	margin-bottom:10px;
 }
+
 .button_right{
 	display:inline-block;
 	padding:12px;
@@ -148,17 +172,17 @@ body{
 }
 .showcase-sections .footer_top{
 	min-height:380px;
-	padding-top:20px;
+	padding-top:40px;
 }
 #after_after_party .col-md-3{
 	margin-bottom:20px;
 }
 .single_techstar_companies{
-	height:235px;
+	height:190px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
+
 .single_techstar_companies img{
-	max-height:88px;
-}
-.shocase_top_left p{
-	margin-top:36px;
+	height:88px;
 }
