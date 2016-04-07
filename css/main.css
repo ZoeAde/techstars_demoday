@@ -1,0 +1,159 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+img{
+	max-width:100%;
+	height:auto;
+}
+body{
+	background:#e6f5fb;
+	text-align:center;
+	font-family: 'Oswald', sans-serif;
+}
+.header_container{
+	background: rgba(0, 0, 0, 0) url("../img/headerbg.jpg") no-repeat scroll 0 0;
+	background-size:100% 100%;
+	padding: 20px;
+}
+.header_right{
+	overflow:hidden;
+	margin-top:110px;
+}
+.header_right h1{
+	color:#6e90a2;
+	font-size: 64px;
+    font-weight: bold;
+}
+.header_right_bottom{
+	margin-top:60px;
+}
+.blue_button{
+	background: #6d90a1 none repeat scroll 0 0;
+    color: #fff !important;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 10px auto;
+    overflow: hidden;
+    padding: 20px 10px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+	margin-right:10px;
+	min-width: 200px;
+}
+.showcase-sections{
+	color:#6e90a2;
+	font-size:14px;
+	
+}
+.showcase-sections p{
+	font-family: 'Carrois Gothic', sans-serif;
+}
+.showcase-sections h2{
+	font-size: 46px;
+    font-weight: bold;
+	margin-bottom: 0;
+	margin-top: 40px;
+}
+
+.showcase-sections h1{
+	font-size:62px;
+	font-weight:bold;
+	margin-top:10px;
+}
+.showcase-sections h3 {
+	font-size:24px;
+	font-weight:bold;
+	margin-top:10px;
+}
+.showcase-sections .showcase_left_col{
+	background:#d8f2e2;
+}
+.showcase-sections .showcase_right_col{
+	background:#ceebfa;
+}
+.showcase-sections .col-md-6{
+	min-height:450px;
+}
+.showcase_left_botom{
+	margin-top: 25px;
+    overflow: hidden;
+
+
+}
+#after_party .container{
+	background:#6d90a1;
+}
+#after_party h1{
+	color:#fff;
+	font-size:60px;
+	text-align:center;
+	margin-top: 25px;
+}
+#after_party h2{
+	color:#fff;
+	font-size:28px;
+	text-align:center;
+}
+#after_after_party .container{
+	background:#b1e1f8;
+	padding:20px;
+}
+#after_after_party h3{
+	color:#6e90a2;
+	font-size:28px;
+	margin-top:5px;
+	margin-bottom:30px;
+}
+#techstar_companies h1{
+	font-size:60px;
+	color:#6e90a2;
+	margin-bottom:15px;
+}
+#techstar_companies{
+	color:#6e90a2;
+}
+#techstar_companies p{
+	font-weight:normal;
+	padding:10px;
+	font-family: 'Carrois Gothic', sans-serif;
+}
+.shocase_right{
+	margin-top:15px;
+}
+.single_techstar_companies{
+	margin-bottom:10px;
+}
+.button_right{
+	display:inline-block;
+	padding:12px;
+	min-width:190px;
+	background:#ceebfa;
+	text-decoration:none !important;
+	color:#6d90a1 !important;
+	margin-top:20px;
+	margin-top: 25px;
+	text-transform: uppercase;
+	font-size:26px;
+}
+.showcase-sections .footer_top{
+	min-height:380px;
+	padding-top:20px;
+}
+#after_after_party .col-md-3{
+	margin-bottom:20px;
+}
+.single_techstar_companies{
+	min-height:235px;
+}
+.single_techstar_companies img{
+	max-height:88px;
+}
+.shocase_top_left p{
+	margin-top:36px;
+}

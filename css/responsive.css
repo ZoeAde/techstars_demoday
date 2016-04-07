@@ -1,0 +1,129 @@
+/*	Less Framework 4 with 18/24 type presets
+	http://lessframework.com
+	by Joni Korpi
+	License: http://opensource.org/licenses/mit-license.php	*/
+
+
+
+/*	Resets
+	------	*/
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.single_techstar_companies {
+  min-height: 290px;
+}	
+.header_right h1{
+	font-size:46px;
+}
+.blue_button{
+	min-width:150px;
+}
+.shocase_right {
+  margin-top: 0px;
+}
+#showcase h1{
+	font-size:48px;
+}
+#showcase h2 {
+  font-size: 40px;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+.header_right{
+	margin-top:15px;
+}	
+.header_right h1{
+	font-size:28px;
+}
+.header_right_bottom {
+	margin-top: 20px;
+}	
+.header_container{
+	background-size:cover;
+}
+#showcase h2{
+	font-size:24px;
+	margin-top:15px;
+	padding-top: 20px;
+}
+#showcase h1 {
+	font-size: 32px;
+}
+#showcase h3 {
+	font-size: 18px;
+}
+.shocase_right{
+	margin-top:0;
+}
+#after_party h1{
+	font-size:30px;
+}
+#after_party h2{
+	font-size:18px;
+}
+.button_right{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+#techstar_companies h1{
+	font-size:26px;
+}
+.shocase_right img{
+	margin-top:15px;
+}
+.single_techstar_companies {
+  min-height: 180px;
+}	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	
+	
+}
