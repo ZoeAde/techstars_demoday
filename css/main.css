@@ -3,6 +3,7 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
 img{
 	max-width:100%;
 	height:auto;
@@ -15,10 +16,6 @@ body{
 .header_container{
 	background: rgba(0, 0, 0, 0) url("../img/headerbg.jpg") no-repeat scroll 0 0;
 	background-size:100% 100%;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 60px;
-	padding-bottom: 40px;
 }
 .header_right{
 	overflow:hidden;
@@ -34,16 +31,16 @@ body{
 }
 .blue_button{
 	background: #6d90a1 none repeat scroll 0 0;
-    color: #fff !important;
-    display: inline-block;
-    font-size: 20px;
-    font-weight: normal;
-    letter-spacing: 1px;
-    margin: 10px auto;
-    overflow: hidden;
-    padding: 20px 10px;
-    text-decoration: none !important;
-    text-transform: uppercase;
+  color: #fff !important;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin: 10px auto;
+  overflow: hidden;
+  padding: 20px 10px;
+  text-decoration: none !important;
+  text-transform: uppercase;
 	margin-right:10px;
 	min-width: 200px;
 }
@@ -61,7 +58,7 @@ body{
 }
 .showcase-sections h2{
 	font-size: 46px;
-    font-weight: bold;
+  font-weight: bold;
 	margin-bottom: 0;
 	margin-top: 40px;
 }
@@ -95,7 +92,7 @@ body{
 	margin-top: 13px;
 }
 
-#after_party .container{
+#after_party .containers{
 	background:#6d90a1;
 }
 #after_party h1{
@@ -110,7 +107,7 @@ body{
 	font-size:28px;
 	text-align:center;
 }
-#after_after_party .container{
+#after_after_party .containers{
 	background:#b1e1f8;
 	padding:20px;
 }
