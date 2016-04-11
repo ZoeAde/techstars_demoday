@@ -14,21 +14,16 @@ body{
 	font-family: 'Oswald', sans-serif;
 }
 .header_container{
-	/*background: rgba(0, 0, 0, 0) url("../img/headerbg.jpg") no-repeat scroll 0 0;*/
-	background-image: url("../img/headerbg.png"), url("../img/headerleftwomen.png");
-	background-repeat: no-repeat, no-repeat, no-repeat;
-	/*background-size:100% 100%;*/
+	background: rgba(0, 0, 0, 0) url("../img/headerbg.png") no-repeat scroll 0 0;
+	background-size:100% 100%;
 	min-height: 100vh;
-	/*padding-bottom: 20px;*/
 }
 
-/*@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
 	.header_container{
-		background-image: url("../img/headerbgmobile.png"), url("../img/headerleftwomen.png");
+			background: rgba(0, 0, 0, 0) url("../img/headerbgmobile.png") no-repeat scroll 0 0;
 	}
-}*/
-
-
+}
 
 .header_right{
 	overflow:hidden;
