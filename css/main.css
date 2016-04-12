@@ -16,13 +16,14 @@ body{
 .header_container{
 	background: rgba(0, 0, 0, 0) url("../img/headerbg.png") no-repeat scroll 0 0;
 	background-size:100% 100%;
-	min-height: 100vh;
+/*	min-height: 100vh;*/
+	overflow: hidden;
 }
 
-@media only screen and (max-device-width: 480px) {
-	.header_container{
-			background: rgba(0, 0, 0, 0) url("../img/headerbgmobile.png") no-repeat scroll 0 0;
-	}
+.header_left {
+	margin-top: 20px;
+	text-align: center;
+	max-height: 50%;
 }
 
 .header_right{
@@ -136,8 +137,8 @@ body{
 	color:#6e90a2;
 }
 #techstar_companies .row{
-	margin-left: 120px;
-	margin-right: 120px;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 #techstar_companies p{
@@ -202,3 +203,12 @@ body{
 }
 
 
+@media screen and (max-device-width: 480px) {
+	.header_container{
+			background: rgba(0, 0, 0, 0) url("../img/headerbgmobile.png") no-repeat scroll 0 0;
+	}
+}
+
+.center {
+	text-align: center;
+}
