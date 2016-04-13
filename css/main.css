@@ -12,18 +12,19 @@ body{
 	background:#e6f5fb;
 	text-align:center;
 	font-family: 'Oswald', sans-serif;
+	overflow-x: hidden;
 }
 .header_container{
 	background: rgba(0, 0, 0, 0) url("../img/headerbg.png") no-repeat scroll 0 0;
 	background-size:100% 100%;
-/*	min-height: 100vh;*/
-	overflow: hidden;
+	padding-top: 3%;
+	padding-bottom: 3%;
 }
 
 .header_left {
-	margin-top: 20px;
 	text-align: center;
-	max-height: 50%;
+	padding-left: 3%;
+	padding-right: 3%;
 }
 
 .header_right{
@@ -54,7 +55,7 @@ body{
 	min-width: 200px;
 }
 
-.blue_button:hover {
+.blue_button:hover, .after_party_btn:hover {
 	background-color: rgb(157,184,196);
 }
 
@@ -93,7 +94,7 @@ body{
 	min-height:450px;
 }
 .showcase_left_botom{
-	margin-top: 25px;
+	padding-top: 19px;
   overflow: hidden;
 }
 
@@ -136,9 +137,9 @@ body{
 #techstar_companies{
 	color:#6e90a2;
 }
-#techstar_companies .row{
-	margin-left: 10%;
-	margin-right: 10%;
+#techstar_companies .row, #after_after_party .row{
+	margin-left: 6%;
+	margin-right: 6%;
 }
 
 #techstar_companies p{
@@ -146,13 +147,12 @@ body{
 	padding:10px;
 	font-family: 'Carrois Gothic', sans-serif;
 }
-.shocase_right{
-	margin-top:15px;
-	padding-left: 40px;
-	padding-right: 40px;
+
+.shocase_top {
+	padding-top: 30px;
 }
 
-.shocase_top_left {
+.shocase_right, .shocase_left{
 	padding-left: 40px;
 	padding-right: 40px;
 }
