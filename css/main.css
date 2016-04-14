@@ -4,16 +4,17 @@
    Author's custom styles
    ========================================================================== */
 
-img{
-	max-width:100%;
-	height:auto;
-}
 body{
 	background:#e6f5fb;
 	text-align:center;
 	font-family: 'Oswald', sans-serif;
 	overflow-x: hidden;
 }
+img{
+	max-width:100%;
+	/*height:auto;*/
+}
+
 .header_container{
 	background: rgba(0, 0, 0, 0) url("../img/headerbg.png") no-repeat scroll 0 0;
 	background-size:100% 100%;
@@ -92,17 +93,6 @@ body{
 .showcase-sections .showcase_right_col{
 	background:#ceebfa;
 	min-height: 480px;
-}
-/*.showcase-sections .col-md-6{
-	min-height:490px;
-}*/
-/*.showcase_left_botom{
-	padding-top: 17px;
-  overflow: hidden;
-}*/
-
-.showcase_cta {
-	margin-top: 13px;
 }
 
 #after_party .containers{
