@@ -157,7 +157,8 @@ img{
 }
 
 .single_techstar_companies{
-	margin-bottom:10px;
+	padding-top: 22px;
+	padding-bottom: 22px;
 }
 
 .button_right{
@@ -184,7 +185,6 @@ img{
 
 @media screen and (min-width: 769px) {
 	.single_techstar_companies{
-		height:190px;
 		padding-left: 20px;
 		padding-right: 20px;
 	}

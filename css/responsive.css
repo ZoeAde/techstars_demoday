@@ -20,7 +20,7 @@ px      68    160    252    344    436    528    620    712    */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 .single_techstar_companies {
   min-height: 290px;
-}	
+}
 .header_right h1{
 	font-size:46px;
 }
@@ -53,13 +53,13 @@ px      68    160    252    */
 @media only screen and (max-width: 767px) {
 .header_right{
 	margin-top:15px;
-}	
+}
 .header_right h1{
 	font-size:28px;
 }
 .header_right_bottom {
 	margin-top: 20px;
-}	
+}
 .header_container{
 	background-size:cover;
 }
@@ -94,8 +94,8 @@ px      68    160    252    */
 	margin-top:15px;
 }
 .single_techstar_companies {
-  min-height: 180px;
-}	
+  min-height: 90px;
+}
 }
 
 
@@ -109,21 +109,21 @@ cols    1     2      3      4      5
 px      68    160    252    344    436    */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	
-	
+
+
 
 }
 
 
 /*	Retina media query.
-	Overrides styles for devices with a 
+	Overrides styles for devices with a
 	device-pixel-ratio of 2+, such as iPhone 4.
 -----------------------------------------------    */
 
-@media 
+@media
 	only screen and (-webkit-min-device-pixel-ratio: 2),
 	only screen and (min-device-pixel-ratio: 2) {
-	
-	
-	
+
+
+
 }
