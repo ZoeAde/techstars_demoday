@@ -201,9 +201,7 @@ img{
 	text-align: center;
 }
 
-
-
-
+/*SOCIAL TAGS*/
 .social {
   position: fixed;
   top: 20px;
@@ -218,6 +216,7 @@ img{
   transform: translate(-270px, 0);
 }
 .social ul li {
+  font-family: 'Carrois Gothic', sans-serif;
   display: block;
   margin: 5px;
   /*background: rgba(0, 0, 0, 0.36);*/
