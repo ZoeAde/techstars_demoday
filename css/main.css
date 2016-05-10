@@ -130,7 +130,7 @@ img{
 #techstar_companies{
 	color:#6e90a2;
 }
-#techstar_companies .row, #after_after_party .row{
+/*#techstar_companies .row,*/ #after_after_party .row{
 	margin-left: 6%;
 	margin-right: 6%;
 }
